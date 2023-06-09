@@ -1,0 +1,73 @@
+('C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+ 'Projects\\UC16-PIADAC\\build\\menu_principal\\menu_principal.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True},
+ [('PYZ-00.pyz',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\build\\menu_principal\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\build\\menu_principal\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\build\\menu_principal\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\build\\menu_principal\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\build\\menu_principal\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\build\\menu_principal\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('menu_principal',
+   'C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\My '
+   'Projects\\UC16-PIADAC\\Trabalho UC16\\menu_principal.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
