@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../assets/css/home-page-styles.css">
+    <link rel="stylesheet" href="../../assets/css/login-registrar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login Lafacult</title>
+</head>
+    <body>
+        <div class="background"></div>
+        <nav class="s-menu">
+            <ul> 
+                <li class="s-menu__item">
+                <a href="#">Teatro</a>
+                </li>     
+                <li class="s-menu__item">
+                <a href="#">Cinema</a>
+                </li>
+                <li class="s-menu__item">
+                <a href="#">Música</a>
+                </li>
+                <li class="s-menu__item s-menu__icon">
+                <a href="../../index.html">
+                <img src="../../assets/images/icons/logo.png" alt="Lafacult">
+                </a>  
+                </li>
+                <li class="s-menu__item">
+                <a href="#">Turismo</a>
+                </li>
+                <li class="s-menu__item">
+                <a href="#">Culinária</a>
+                </li>
+                <li class="s-menu__item">
+                <a href="pages/login-registrar/login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+
+        
+        <div class="container">
+            <div class="content">
+                <h2 class="logo"></h2>
+                <div class="text-sci">
+                    <h2>Bem-vindo(a)<br><span>ao LafaCult!</span></h2>
+                    <p>Essa é uma prévia do nosso menu de login e cadastro, apesar de toda a simplicidade e início de construção do nosso site, esperamos que vocês usuários gostem da nossa ideia de projeto e nos apoiem para a continuação desse site até que ele se torne um produto oficial.</p>
+                </div>
+            </div>
+
+            <div class="logreg-box">
+                <div class="form-box login">
+                    <form action="">
+                        <h2>Login</h2>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                            <input type="email" required>
+                            <label for="">E-mail</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label for="">Senha</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label for=""><input type="checkbox">Lembrar de mim</label>
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+
+                        <button type="submit" class="btn">Entrar</button>
+
+                        <div class="login-register">
+                            <p>Não tem uma conta? <a href="#" class="register-link">Registrar</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box register">
+                    <form action="">
+                        <h2>Registrar</h2>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user'></i></span>
+                            <input type="text" required>
+                            <label for="">Nome</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                            <input type="email" required>
+                            <label for="">E-mail</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label for="">Senha</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label for=""><input type="checkbox">Concordo com os <a href="#">termos e condições</a></label>
+                        </div>
+
+                        <button type="submit" class="btn">Registrar</button>
+
+                        <div class="login-register">
+                            <p>Já possui uma conta? <a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="../../assets/scripts/login-registrar.js"></script>
+    </body>
+</html>
