@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<title>Portifólio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+.w3-round{
+border-radius: 50%;
+             }
+.w3-cor{ background-color:  #cce6ff}
+.w3-cor2{ background-color:	 #e6f2ff}
+.w3-cor3{ background-color:#b3b3ff}
+</style>
+<body class="w3-cor w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/perfil.png" style="width:45%;" class="w3-round"><br><br>
+    <bp class="w3-text-black" style="font-size: 24px"><b> THIAGO SAMUEL ARAUJO</b><p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE</a>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://pt-br.facebook.com/">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <a href="https://www.instagram.com/thiago_samuel22/">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/in/thiago-samuel-25b0a5242/">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="img/perfil.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Meu Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filtro:</span>
+      <button class="w3-button w3-black">Todos</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Sites</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Aplicativos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right">Projetos</i></button>
+    </div>
+    </div>
+  </header>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="site-master/index.html">
+      <img src="img/ft1.png"  alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Site</b></p>
+        <p>Site para apresentação da criação de sites e modelos para cada area desejada, e seu processo de produção...</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="arquivos/musica/musica.html">
+      <img src="arquivos/2.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Site</b></p>
+        <p>Projeto criado para uma empresa de musica com detalhamentos historicos , contanto com interações e funcionalidades...</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="arquivos/Tarefa-10.html">
+      <img src="arquivos/1.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Site</b></p>
+        <p>Projeto feito para a área de alimentação, trazendo uma interface bem ilustrada sobre os pratos de um restaurante</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="arquivos/BI 4.pbix">
+      <img src="img/powerbi1.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Dashboard Financeiro</b></p>
+        <p>Dashboard de controle financeiro completo que disponibiliza uma visão ampla e clara de como está a saúde financeira de sua empresa...</p></a>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/app2.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Aplicativo de Eventos</b></p>
+        <p>Projeto de aplicação desktop para anuncios de eventos e turismo regional, com sistemas de login e registro...</p></a>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="arquivos/BI 5.pbix">
+      <img src="img/pwbi.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Dashboard de Produção</b></p>
+          <p>Dashboard que traz visualização analitíca das vendas de differentes produtos por categorias e suas maiores escalabilidade...</p></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+      <a href="arquivos/BI 3.pbix">
+      <img src="img/powerbi2.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Dashboard de RH</b></p>
+        <p>Analise de completa sobre o acompanhamento e gestao de RH com facil visualização dos dados e status dos funcionarios...</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/BI 1.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Dashboard de Analise de Vendas</b></p>
+        <p>Dashboard que com visualização, interpretação e acompanhamento de dados nas linhas de Vendas, trazendo visualização de potenciais produtos...</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="tela.exe">
+      <img src="img/app1.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-cor2">
+        <p><b>Aplicativo de Cadastro</b></p>
+        <p>Aplicação desktop que traz um cadastro de clientes completo com banco de dados local e busca de ceps...</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6" style="display: flex; justify-content: center;">
+      <img src="img/perfil0.jpeg"  alt="Me" style="width:100%; display: block; margin: 0 auto;"></a>
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Sobre mim</b></h4>
+    <p>Me chamo Thiago Samuel sou formado em Tecnico de Informatica e cursando Engenharia de Podução, tenho conhecimentos e habilidades em hardware, redes e desenvolvimento de software com foco em python, HTML/CSS, Habilidades em analise de dados, gestão e otimização de processos, técnicas de automacões e sistemas produtivos, com foco em redução de custos e escalabilidade do sucesso das empresas, tenho um perfil voltado a definições de metas e resultados, com enfase em pessoas... </p>
+    <hr>
+
+    <h4> Habilidades </h4>
+    <!-- Progress bars / Skills -->
+    <p>Gestão e Otimização de processos</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>Business Intelligence</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Desenvolvimento de sistemas</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>
+
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <a href="arquivos/curriculo.docx">
+        <i class="fa fa-download w3-margin-right"> Baixar Currículo</i></a>
+      </button>
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-grey w3-padding-large ">
+    <h4 id="contact"><b>Contate-me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>thgsamuell@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Conselheiro Lafaiete, MG</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>(31) 983444665</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+
+  <div class="w3-black w3-center w3-padding-24">Desenvolvido por Thiago Samuel <a  target="_blank" class="w3-hover-opacity"></a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
